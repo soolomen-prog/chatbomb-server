@@ -1,14 +1,9 @@
 {
   "name": "chatbomb-server",
-  "version": "1.0.0",
   "private": true,
-  "description": "Serverless API for Chatbomb chatbot (Vercel)",
-  "license": "MIT",
-  "main": "api/chat.js",
-  "engines": {
-    "node": ">=18"
-  },
+  "type": "module",
+  "engines": { "node": ">=18" },
   "dependencies": {
-    "openai": "^4.50.0"
+    "openai": "^4.55.3"
   }
 }
